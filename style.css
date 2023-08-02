@@ -1,0 +1,229 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Rest of the CSS code */
+/* Rest of the CSS code */
+
+/* Style the hero section */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+/* Style the courses section */
+.courses {
+    padding: 50px;
+    text-align: center;
+}
+
+.courses h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.course {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.course h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Style the about section */
+.about {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+/* Style the contact section */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.contact form button:hover {
+    background-color: #555;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    .courses {
+        padding: 30px;
+    }
+
+    .coursesHere's the continuation of the updated CSS code:
+
+
+    ```css .courses .course {
+        padding: 15px;
+    }
+
+    .courses .course img {
+        max-width: 200px;
+    }
+
+    .about {
+        padding: 30px;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    form {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
